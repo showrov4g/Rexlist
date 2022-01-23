@@ -1,0 +1,40 @@
+header{
+    border-bottom: 1px solid #a1a3ca;
+    position: relative;
+}
+header .navbar-nav .nav-item .nav-link{
+    color: #a1a3ca;
+    font-size: 14px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+}
+header .navbar-nav .nav-item .active{
+    color: #fff;
+}
+header .navbar-nav .nav-item .btn-primary{
+    background-color: #4c69ff;
+    color: #fff;
+    font-size: 14px;
+}
+/* search and accout area design */
+.search{
+    position:absolute;
+    left: 0;
+    right: 10%;
+    bottom: -23px;
+}
+.search .nav-link{
+    padding: 0.7rem 1rem;
+    background: #2c1f64;
+    font-size: 14px;
+}
+/* header area desgin finish here  */
+
+
+/* hero section  */
+.hero{
+    background: #09003b;
+    background-image: url(../image/bg/01_home.png) !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
