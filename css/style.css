@@ -1,7 +1,7 @@
 header{
     border-bottom: 1px solid #a1a3ca;
-    /* position: relative;
-    background: rgba(9, 0, 59, 1); */
+    position: relative;
+    background: rgba(9, 0, 59, 1);
 }
 header .navbar-nav .nav-item .nav-link{
     color: #a1a3ca;
@@ -40,8 +40,8 @@ header .navbar-nav .nav-item .site_button{
     background-image: url(../image/bg/01_home.png) !important;
     background-size: cover;
     background-repeat: no-repeat;
-    padding-top: 11rem;
-    padding-bottom: 6rem;
+    padding-top: 6rem;
+    padding-bottom: 8rem;
 }
 .hero .text p{
     color: #7c7bae;
@@ -78,6 +78,27 @@ header .navbar-nav .nav-item .site_button{
     border-right: none;
     position: relative;
 }
-.hero .search-box label{
-    
+/* hero section area finish  */
+
+.secound_section{
+    padding: 5rem 0rem 5rem 0rem;
+}
+.secound_section .box{
+    cursor: pointer;
+    transition-duration: 0.7s;
+}
+.secound_section .box:hover{
+    background: #4c69ff;
+    position: relative;
+}
+.secound_section .box a i{
+    color: #4c69ff;
+    font-size: 3rem;
+    transition-duration: 0.7s;
+}
+.secound_section .box:hover>a i{
+    color: #fff;
+}
+.secound_section .box .text{
+    color: #aaa1d0;
 }
